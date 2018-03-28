@@ -1,0 +1,8 @@
+url:http://djustice-android.tumblr.com
+name:Amit
+email:amitsarker@gmail.com
+gender:male
+botmaster:Amit Sarker
+organization:DU
+version:0.0.1
+

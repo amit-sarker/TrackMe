@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amit.trackmeNew.ManageDriver.MapForDriverInfo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:id="@+id/relativeLayout"
+        android:background="#4fc2f7">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/driverinfoimg"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logoo"
+            />
+
+        <TextView
+            android:id="@+id/textusername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="serif"
+            android:text="usename"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:layout_above="@+id/textcode"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="serif"
+            android:text="code"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:layout_above="@+id/textcontact"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textcontact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="serif"
+            android:text="contact"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <fragment
+
+        android:id="@+id/mapdriverinfo"
+        android:layout_below="@+id/relativeLayout"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</RelativeLayout>

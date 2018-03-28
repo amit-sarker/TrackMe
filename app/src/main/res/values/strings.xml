@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TrackMe</string>
+    <string name="title_activity_driver_map">Map</string>
+    <string name="title_activity_owner_map">Map</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_direction_on_map">Map</string>
+</resources>

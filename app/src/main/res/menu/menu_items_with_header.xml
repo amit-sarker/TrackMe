@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--The drawer items below have been categorized according to headers-->
+    <item
+        android:id="@+id/navigation_item_1"
+        android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/item_profile"
+                android:checkable="true"
+                android:icon="@drawable/ic_person"
+                android:title="My Profile"/>
+            <item
+                android:id="@+id/item_edit"
+                android:checkable="true"
+                android:icon="@drawable/ic_mode_edit"
+                android:title="Edit Profile"/>
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/navigation_item_2"
+        android:title="Traffic">
+        <menu>
+            <item
+                android:id="@+id/heatmap"
+                android:checkable="true"
+
+                android:title="Heatmap"/>
+
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/navigation_item3"
+        android:title="Social">
+
+        <menu>
+            <item
+                android:id="@+id/feed"
+                android:checkable="true"
+
+                android:title="Feed"/>
+
+            <item
+                android:id="@+id/bot"
+                android:checkable="true"
+
+                android:title="Chat Bot"/>
+
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/navigation_item4"
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/signout"
+                android:checkable="true"
+                android:icon="@drawable/ic_exit_to_app"
+                android:title="Sign out"/>
+
+        </menu>
+    </item>
+
+</menu>

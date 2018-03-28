@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amit.trackmeNew.SelectionActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#4fc2f7">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/driver"
+        android:src="@drawable/driver"
+        android:background="#4fc2f7"
+        android:layout_marginTop="92dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Owner"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="14dp"
+        android:typeface="serif"
+        android:id="@+id/textView"
+        android:layout_below="@+id/owner"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/owner"
+        android:src="@drawable/owner"
+        android:background="#4fc2f7"
+        android:layout_marginTop="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/driver" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Driver"
+        android:textColor="#000000"
+        android:typeface="serif"
+        android:textSize="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/driver"
+        android:layout_alignEnd="@+id/textView"
+        android:id="@+id/textView2" />
+
+
+
+
+
+</RelativeLayout>

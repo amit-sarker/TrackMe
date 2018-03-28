@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "521938647468",
+    "firebase_url": "https://trackme-4f4b8.firebaseio.com",
+    "project_id": "trackme-4f4b8",
+    "storage_bucket": "trackme-4f4b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521938647468:android:5d7d073b6e2e46b5",
+        "android_client_info": {
+          "package_name": "com.example.amit.trackmeNew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521938647468-9n4i6f546k71r42mnsb2jjgj1cjvtsha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amit.trackmeNew",
+            "certificate_hash": "aa43b369b643267c79f9c78eff5b81f61848935a"
+          }
+        },
+        {
+          "client_id": "521938647468-j6mvk2ijpk8husrm37km86s59f5jq1ou.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amit.trackmeNew",
+            "certificate_hash": "09e84855f6c37b52581b9028f123c24c5ed22010"
+          }
+        },
+        {
+          "client_id": "521938647468-ii9rfr5ibs99laqvkm291prk8a4qf2v4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ8wLB7bFTqga4gyoH3EbDDEdvTu0E6vU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521938647468-ii9rfr5ibs99laqvkm291prk8a4qf2v4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

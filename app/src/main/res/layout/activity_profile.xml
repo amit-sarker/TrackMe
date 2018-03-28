@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amit.trackmeNew.Profile.ProfileActivity"
+    android:background="#061B36">
+
+    <RelativeLayout
+        android:id="@+id/circlelayout"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="#4fc2f7">
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/pa_moumitaimg"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:src="@mipmap/ic_profile_image_round" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/pa2_profileusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/pa2_profileemail"
+        android:layout_below="@+id/pa2_profilename"
+        android:layout_marginTop="45dp"
+        android:fontFamily="serif"
+        android:text="User name: "
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="#0BBFCB"/>
+
+    <TextView
+        android:id="@+id/pa2_profilename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/circlelayout"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="serif"
+        android:text="Name: "
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="#0BBFCB"/>
+
+    <TextView
+        android:id="@+id/pa2_profileemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pa2_profilename"
+        android:layout_below="@+id/pa2_profileusername"
+        android:layout_marginTop="45dp"
+        android:fontFamily="serif"
+        android:text="Email:"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="#0BBFCB"/>
+
+    <TextView
+        android:id="@+id/pa2_profilecontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pa2_profileemail"
+        android:layout_below="@+id/pa2_profileemail"
+        android:layout_marginTop="45dp"
+        android:fontFamily="serif"
+        android:text="Contact No.:"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="#0BBFCB"/>
+
+    <TextView
+        android:id="@+id/pa2_profilecode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pa2_profilecontact"
+        android:layout_below="@+id/pa2_profilecontact"
+        android:layout_marginTop="45dp"
+        android:fontFamily="serif"
+
+        android:text="Code:"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="#0BBFCB"
+        />
+
+
+
+    <TextView
+        android:id="@+id/pa_profileusername"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+
+        android:layout_alignStart="@+id/pa_profileemail"
+        android:layout_alignBaseline="@+id/pa2_profileusername"
+        android:layout_below="@+id/pa_profilename"
+        android:layout_marginTop="29dp"
+        android:fontFamily="serif"
+
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="#dbd6d6"/>
+
+    <TextView
+        android:id="@+id/pa_profilename"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+
+        android:fontFamily="serif"
+
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="#dbd6d6"
+        android:layout_alignBaseline="@+id/pa2_profilename"
+        android:layout_alignBottom="@+id/pa2_profilename"
+        android:layout_toEndOf="@+id/pa2_profilecontact" />
+
+    <TextView
+        android:id="@+id/pa_profileemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pa_profilename"
+        android:layout_alignBaseline="@+id/pa2_profileemail"
+        android:layout_below="@+id/pa_profileusername"
+        android:layout_marginTop="45dp"
+        android:fontFamily="serif"
+
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="#dbd6d6"/>
+
+    <TextView
+        android:id="@+id/pa_profilecontact"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/pa_profileemail"
+        android:layout_alignBaseline="@+id/pa2_profilecontact"
+        android:layout_below="@+id/pa_profileemail"
+        android:layout_marginTop="35dp"
+        android:fontFamily="serif"
+
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="#dbd6d6"/>
+
+    <TextView
+        android:id="@+id/pa_profilecode"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/pa_profilecontact"
+        android:layout_alignBaseline="@+id/pa2_profilecode"
+        android:layout_below="@+id/pa_profilecontact"
+        android:layout_marginTop="35dp"
+        android:fontFamily="serif"
+
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="#dbd6d6"/>
+
+
+</RelativeLayout>
