@@ -6,8 +6,8 @@ TrackMe is an android app for tracking personal vehicles on road. Users can get 
 5. Can suggest shortest route
 
 Developed By:
-Nusrat Munia, Roll: 03
 Moumita Choudhury, Roll: 33
 Amit Sarker, Roll: 99
+Nusrat Munia, Roll: 03
 
 Video Link: https://www.youtube.com/watch?v=FP9ocdtC0gQ&t=120s
